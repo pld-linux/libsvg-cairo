@@ -1,15 +1,15 @@
 Summary:	SVG rendering using Cairo
 Summary(pl):	Renderowanie SVG przy u¿yciu Cairo
 Name:		libsvg-cairo
-Version:	0.1.3
+Version:	0.1.4
 Release:	1
 License:	BSD-like
 Group:		Libraries
 Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.gz
-# Source0-md5:	5e0bbae11601c4d7884ceeb364d52a84
+# Source0-md5:	98afd1ecb8cf7f573027c006a0df98b2
 URL:		http://www.xsvg.org/
 BuildRequires:	cairo-devel >= 0.1.8
-BuildRequires:	libsvg-devel >= 0.1.0
+BuildRequires:	libsvg-devel >= 0.1.2
 BuildRequires:	pkgconfig
 Requires:	cairo >= 0.1.8
 Requires:	libsvg >= 0.1.2
