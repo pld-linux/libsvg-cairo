@@ -60,6 +60,7 @@ Statyczna biblioteka libxsvg.
 %setup -q
 
 %build
+%{__libtoolize}
 %{__aclocal}
 %{__autoconf}
 %{__automake}
