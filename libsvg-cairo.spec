@@ -12,6 +12,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	cairo-devel >= 0.1.8
 BuildRequires:	libsvg-devel >= 0.1.2
+BuildRequires:	libtool
 BuildRequires:	pkgconfig
 Requires:	cairo >= 0.1.8
 Requires:	libsvg >= 0.1.2
