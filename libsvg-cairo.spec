@@ -10,7 +10,7 @@ Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.gz
 URL:		http://www.xsvg.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	cairo-devel >= 0.5.0
+BuildRequires:	cairo-devel >= 1.0.0
 BuildRequires:	libsvg-devel >= 0.1.2
 BuildRequires:	libtool
 BuildRequires:	pkgconfig
