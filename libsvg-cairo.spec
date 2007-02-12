@@ -1,5 +1,5 @@
 Summary:	SVG rendering using Cairo
-Summary(pl):	Renderowanie SVG przy uøyciu Cairo
+Summary(pl.UTF-8):   Renderowanie SVG przy u≈ºyciu Cairo
 Name:		libsvg-cairo
 Version:	0.1.6
 Release:	4
@@ -24,14 +24,14 @@ libxsvg provides the ability to render SVG content from files or
 buffers. All rendering is performed using the Cairo rendering library
 (formerly called Xr).
 
-%description -l pl
-libxsvg daje moøliwo∂Ê renderowania danych SVG z plikÛw lub buforÛw.
-Ca≥o∂Ê renderowania jest wykonywana przy uøyciu biblioteki
-renderuj±cej Cairo (dawniej nazywanej Xr).
+%description -l pl.UTF-8
+libxsvg daje mo≈ºliwo≈õƒá renderowania danych SVG z plik√≥w lub bufor√≥w.
+Ca≈Ço≈õƒá renderowania jest wykonywana przy u≈ºyciu biblioteki
+renderujƒÖcej Cairo (dawniej nazywanej Xr).
 
 %package devel
 Summary:	Header files for libxsvg library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki libxsvg
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki libxsvg
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	cairo-devel >= 0.5.0
@@ -41,12 +41,12 @@ Obsoletes:	libxsvg-devel
 %description devel
 Header files for libxsvg library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki libxsvg.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki libxsvg.
 
 %package static
 Summary:	Static libxsvg library
-Summary(pl):	Statyczna biblioteka libxsvg
+Summary(pl.UTF-8):   Statyczna biblioteka libxsvg
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 Obsoletes:	libxsvg-static
@@ -54,7 +54,7 @@ Obsoletes:	libxsvg-static
 %description static
 Static libxsvg library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libxsvg.
 
 %prep
