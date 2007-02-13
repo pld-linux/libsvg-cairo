@@ -1,5 +1,5 @@
 Summary:	SVG rendering using Cairo
-Summary(pl.UTF-8):   Renderowanie SVG przy użyciu Cairo
+Summary(pl.UTF-8):	Renderowanie SVG przy użyciu Cairo
 Name:		libsvg-cairo
 Version:	0.1.6
 Release:	4
@@ -31,7 +31,7 @@ renderującej Cairo (dawniej nazywanej Xr).
 
 %package devel
 Summary:	Header files for libxsvg library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libxsvg
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libxsvg
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	cairo-devel >= 0.5.0
@@ -46,7 +46,7 @@ Pliki nagłówkowe biblioteki libxsvg.
 
 %package static
 Summary:	Static libxsvg library
-Summary(pl.UTF-8):   Statyczna biblioteka libxsvg
+Summary(pl.UTF-8):	Statyczna biblioteka libxsvg
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 Obsoletes:	libxsvg-static
