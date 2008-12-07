@@ -1,0 +1,26 @@
+diff -ur libsvg-cairo-0.1.6.orig/configure.in libsvg-cairo-0.1.6/configure.in
+--- libsvg-cairo-0.1.6.orig/configure.in	2005-06-16 00:31:04.000000000 +0200
++++ libsvg-cairo-0.1.6/configure.in	2008-12-07 21:13:25.338238753 +0100
+@@ -8,18 +8,18 @@
+ # libtool shared library version
+ 
+ # Increment if the interface has additions, changes, removals.
+-LT_CURRENT=1
++LIBT_CURRENT=1
+ 
+ # Increment any time the source changes; set to
+ # 0 if you increment CURRENT
+-LT_REVISION=1
++LIBT_REVISION=1
+ 
+ # Increment if any interfaces have been added; set to 0
+ # if any interfaces have been removed. removal has
+ # precedence over adding, so set to 0 if both happened.
+-LT_AGE=0
++LIBT_AGE=0
+ 
+-VERSION_INFO="$LT_CURRENT:$LT_REVISION:$LT_AGE"
++VERSION_INFO="$LIBT_CURRENT:$LIBT_REVISION:$LIBT_AGE"
+ AC_SUBST(VERSION_INFO)
+ 
+ dnl ===========================================================================
