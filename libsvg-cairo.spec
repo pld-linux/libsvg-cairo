@@ -8,7 +8,7 @@ Group:		Libraries
 Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.gz
 # Source0-md5:	d79da7b3a60ad8c8e4b902c9b3563047
 Patch0:		%{name}-ac.patch
-URL:		http://www.xsvg.org/
+URL:		http://cairographics.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	cairo-devel >= 1.0.0
@@ -85,15 +85,16 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README
-%attr(755,root,root) %{_libdir}/lib*.so.*.*.*
+%attr(755,root,root) %{_libdir}/libsvg-cairo.so.*.*.*
+%attr(755,root,root) %ghost %{_libdir}/libsvg-cairo.so.1
 
 %files devel
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_libdir}/lib*.so
-%{_libdir}/lib*.la
-%{_includedir}/*.h
-%{_pkgconfigdir}/*.pc
+%attr(755,root,root) %{_libdir}/libsvg-cairo.so
+%{_libdir}/libsvg-cairo.la
+%{_includedir}/svg-cairo.h
+%{_pkgconfigdir}/libsvg-cairo.pc
 
 %files static
 %defattr(644,root,root,755)
-%{_libdir}/lib*.a
+%{_libdir}/libsvg-cairo.a
