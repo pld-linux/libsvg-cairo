@@ -2,7 +2,7 @@ Summary:	SVG rendering using Cairo
 Summary(pl.UTF-8):	Renderowanie SVG przy użyciu Cairo
 Name:		libsvg-cairo
 Version:	0.1.6
-Release:	8
+Release:	9
 License:	LGPL v2+
 Group:		Libraries
 Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.gz
@@ -76,6 +76,8 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
+%{__rm} $RPM_BUILD_ROOT%{_libdir}/*.la
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -91,7 +93,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libsvg-cairo.so
-%{_libdir}/libsvg-cairo.la
 %{_includedir}/svg-cairo.h
 %{_pkgconfigdir}/libsvg-cairo.pc
 
